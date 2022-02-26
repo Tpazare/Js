@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Finding the highest and lowest array value </title>
+  </head>
+  <body>
+
+    <p><b>Finding the Highest and lowest Element in an Array</b></p>
+    Highest Element in Array is:-<span class="high"></span>
+    lowest Element in Array is :- <span class="low"></span>
+
+    <button type="button" name="button" class="btn" onclick="fun1()">Check</button>
+
+
+
+    <script type="text/javascript">
+      function fun1() {
+
+        arr = [45,80,77,66,21,9,96,78,15,36,48,23];
+        H = Math.max(...arr);
+        L = Math.min(...arr);
+        document.querySelector('.high').textContent = H;
+        document.querySelector(".low").textContent = L;
+
+      }
+
+    </script>
+  </body>
+</html>

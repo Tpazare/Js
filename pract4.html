@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mouse Event</title>
+  </head>
+  <body>
+    <img src="sample/tp.jpg" width="75%" alt="" id="img"><br><br>
+    <button type="button" name="button" onclick="f1()" id="bnt1">Hide</button>
+    <button type="button" name="button" ondblclick="f2()" id="btn2">Show</button><br><br>
+    <h3 onmouseover="f3()" id="m1">Implementing Mouse Event</h3>
+    <script type="text/javascript">
+      var image = document.getElementById('img');
+      function f1() {
+        var h = document.getElementById('bnt1');
+        h.onclick
+        {
+          image.style.display="none";
+        }
+
+      }
+      function f2() {
+        var s = document.getElementById('btn2');
+        s.ondblclick
+        {
+          image.style.display="block";
+        }
+
+      }
+      function f3() {
+        var text = document.getElementById('m1');
+        text.innerHTML = "Opps Sorry!!"
+
+      }
+
+    </script>
+  </body>
+</html>

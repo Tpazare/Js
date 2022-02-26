@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Display a message if the number is less than 100</title>
+  </head>
+  <body>
+    Enter number:- <input type="number" name="" value="" id="num"><br>
+    <button type="button" name="button" id="btn1" onclick="check()">Check</button>
+
+    <script type="text/javascript">
+      function check() {
+
+        var x = document.getElementById('num').value;
+        if (x < 100) {
+
+          alert("Welcome User");
+
+
+        }
+        else {
+          alert("Wrong Input!! Please Enter the valid value....");
+        }
+
+      }
+
+    </script>
+
+  </body>
+</html>
